@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      HTTP Example
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-button [routerLink]="['/create']">POST Example</ion-button>
+  <ion-button [routerLink]="['/readall']">GET Example</ion-button>
+  <ion-button [routerLink]="['/read']">GET by ID Example</ion-button>
+  <ion-button [routerLink]="['/update']">Put Example</ion-button>
+</ion-content>
